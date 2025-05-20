@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* global style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  color: #282938;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74px;
+  margin-bottom: 31px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+}
+h3 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+section {
+  padding-bottom: 128px;
+  padding-top: 128px;
+}
+.container {
+  max-width: 1280px;
+  width: 80%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 100%;
+}
+/* navbar */
+.navbar {
+  background-color: #1c1e53;
+}
+.navbar__logo {
+  padding: 33px 0;
+}
+.navbar__link a {
+  color: #bbbbcb;
+  padding: 0 16px;
+}
+
+.navbar__btn {
+  color: #ffff;
+  border: solid 2px #f4f6fc33;
+  border-radius: 41px;
+  padding: 16px 48px;
+  margin: 16px 0 16px 32px;
+  background: none;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+}
+a.active {
+  color: #ffff;
+}
+
+/* Banner  section */
+.banner {
+  padding-top: 96px;
+}
+.banner__image {
+  width: 42.74%;
+}
+
+.banner__content {
+  width: 46.49%;
+}
+.banner__paragraph {
+  width: 81.35%;
+}
+
+/* Goal section */
+.gery {
+  background-color: #f4f5f5;
+}
+.goal {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.goal__contents {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.goal__divs {
+  width: 85.32%;
+  margin-left: 79px;
+  flex-wrap: wrap;
+}
+.goal__content {
+  width: 47.16%;
+}
+.goal .label {
+  margin-bottom: 4px;
+  margin-left: 79px;
+}
+.goal__image {
+  width: 100%;
+}
+/* Process section */
+
+.process__header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.process__image {
+  margin-bottom: 26px;
+  width: 92%;
+}
+.process h6 {
+  margin-bottom: 8px;
+}
+.process__divs {
+  width: 100%;
+}
+.process__div {
+  width: 23.13%;
+}
+/* Prespective section */
+.prespective {
+  background-color: #eef4fa;
+}
+.prespective .label {
+  margin-bottom: 16px;
+}
+
+.vision {
+  padding-top: 96px;
+}
+.mession__content,
+.vision__content {
+  width: 48.68%;
+}
+.mession__image,
+.vision__image {
+  width: 40.24%;
+}
+
+/* Benifite section */
+
+.benifits__header {
+  margin: auto;
+  text-align: center;
+  width: 49.22%;
+  margin-bottom: 49px;
+}
+
+.benifits__image {
+  width: 32px;
+}
+.benifits__logo {
+  width: 136px;
+}
+.benifits__div {
+  background-color: #f4f6fc;
+  width: 31.648%;
+  padding: 50px 32.61px 48px 48.31px;
+}
+
+.benifits__div h6 {
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+.benefits__users h3 {
+  margin: 0;
+}
+.benefits__logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.benefits__logos ul {
+  display: flex;
+  justify-content: space-between;
+  width: 79.3%;
+}
+
+/* Team section  */
+
+.team {
+  background-color: #f4f6fc;
+}
+
+.team__header {
+  text-align: center;
+  padding-bottom: 48px;
+}
+.team__divs {
+  flex-wrap: wrap;
+}
+.team__div {
+  background-color: #ffff;
+  text-align: center;
+  width: 23.13%;
+  padding-top: 48px;
+  padding-bottom: 31px;
+}
+.team__div h6 {
+  padding-top: 27px;
+}
+.team__image {
+  width: 56.8%;
+  margin: auto;
+}
+/* Footer section */
+
+.footer {
+  background-color: #1c1e53;
+}
+.footer__content {
+  padding-top: 96px;
+}
+.footer__content p {
+  color: #f4f6fc;
+}
+.footer__content h2 {
+  color: #f4f6fc;
+}
+
+
+.footer__divs {
+  width: 82.66%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__div {
+  width: 37.72%;
+}
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 37%;
+  margin-top: 28px;
+}
+.footer__logo {
+  width: 160px;
+}
+.footer__div h2 {
+  margin-bottom: 14px;
+}
+.footer__paragraph {
+  margin-top: 23px;
+  color: #fff;
+}
+.footer__contacts {
+  background-color: #fcd980;
+  color: #1c1e53;
+  width: 42%;
+  padding: 17px 136px 16px 36px;
+}
+
