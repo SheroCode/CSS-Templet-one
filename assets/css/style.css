@@ -106,9 +106,16 @@ img {
   font-family: Poppins;
   font-weight: 500;
   font-size: 1rem;
+  cursor: pointer;
+}
+.navbar__btn:hover {
+background: #f4f6fc33;
 }
 a.active {
   color: #ffff;
+}
+i{
+  cursor: pointer;
 }
 .navbar__menu {
   display: none;
