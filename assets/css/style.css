@@ -123,12 +123,10 @@ a.active {
 }
 .banner__image {
   width: 42.74%;
-  /* min-width: 35rem; */
 }
 
 .banner__content {
   width: 46.49%;
-  min-width: 35rem;
 }
 .banner__paragraph {
   width: 81.35%;
@@ -245,9 +243,7 @@ a.active {
   text-align: center;
   padding-bottom: 3rem;
 }
-.team__divs {
-  flex-wrap: wrap;
-}
+
 .team__div {
   background-color: #ffff;
   text-align: center;
@@ -329,13 +325,16 @@ a.active {
   width: 37.72%;
 }
 .footer__icons {
-  display: flex;
-  justify-content: space-between;
   width: 37%;
   margin-top: 1.75rem;
+  gap: 1.66rem;
+}
+.footer__icons i {
+  color: #fff;
+  font-size: 1rem;
 }
 .footer__logo {
-  width: 6rem;
+  width: 10rem;
 }
 .footer__div h2 {
   margin-bottom: 0.875rem;
@@ -347,14 +346,11 @@ a.active {
 .footer__contacts {
   background-color: #fcd980;
   color: #1c1e53;
-  width: 42%;
+  width: 40.4%;
   padding: 17px 8.5rem 1rem 2.25rem;
 }
 
 .navfooter__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 32px 0;
 }
 .navfooter__links {
@@ -367,6 +363,12 @@ a.active {
   font-weight: 500;
   line-height: 28px;
 }
+@media (max-width: 1500px) {
+  .footer__contacts {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+}
 @media (max-width: 1230px) {
   .navbar__links {
     display: none;
@@ -374,31 +376,113 @@ a.active {
   .navbar__menu {
     display: block;
   }
-  .banner__image {
-    width: 100%;
+  .footer__contacts {
     margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
   }
 }
 
 @media (max-width: 992px) {
-  
-  .banner__content{
+  :root {
+    font-size: 14px;
+  }
+  .banner__content {
+    width: 100%;
     text-align: center;
-    /* margin: auto; */
+  }
+  .banner__paragraph {
+    width: 100%;
   }
   .banner__image {
     width: 100%;
     margin-top: 1rem;
   }
-    .row {
+  .goal__contents {
+    padding: 2rem;
+  }
+  .goal__content {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .process__div {
+    width: 50%;
+    margin-top: 2rem;
+  }
+  /*prespective section*/
+  .vision__content,
+  .mession__content {
+    width: 100%;
+  }
+  .mession__image,
+  .vision__image {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .vision {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .team__div {
+    background-color: #ffff;
+    text-align: center;
+    padding-top: 2rem;
+    width: 49%;
+    margin-bottom: 1rem;
+  }
+  /*benifits section*/
+  .benifits__header {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 3.0625rem;
+  }
+  .benifits__divs {
+    display: block;
+  }
+
+  .benifits__div {
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+  .benefits__users {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .benefits__logos ul {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+  /*footer*/
+  .footer__contacts {
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  .navfooter__wrapper {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 1rem;
+  }
+  .navfooter__links {
+    width: 100%;
+  }
+  .footer__divs {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer__div {
+    margin-top: 1rem;
+    width: 90%;
   }
 }
 @media (max-width: 540px) {
   :root {
     font-size: 12px;
   }
-
 }
