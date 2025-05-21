@@ -4,74 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Css lab 3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar">
-      <div class="container flex">
-        <a class="navbar__logo" href=""
-          ><img src="./assets/images/Logo.png" alt=""
-        /></a>
-        <ul class="navbar__links flex">
-          <li class="navbar__link"><a href="" class="active">Home</a></li>
-          <li class="navbar__link"><a href="">About us</a></li>
-          <li class="navbar__link"><a href="">Features</a></li>
-          <li class="navbar__link"><a href="">Pricing</a></li>
-          <li class="navbar__link"><a href="">FAQ</a></li>
-          <li class="navbar__link"><a href="">Blog</a></li>
-          <li>
-            <button href="" class="navbar__btn" class="active">
-              Contact us
-            </button>
-          </li>
-        </ul>
+      <div class="container">
+        <div class="flex">
+          <a class="navbar__logo" href=""
+            ><img src="./assets/images/Logo.png" alt=""
+          /></a>
+          <ul>
+            <li class="navbar__menu">
+              <img src="./assets/images/icons/menu.png" alt="" />
+            </li>
+          </ul>
+          <ul class="navbar__links flex">
+            <li class="navbar__link"><a href="" class="active">Home</a></li>
+            <li class="navbar__link"><a href="">About us</a></li>
+            <li class="navbar__link"><a href="">Features</a></li>
+            <li class="navbar__link"><a href="">Pricing</a></li>
+            <li class="navbar__link"><a href="">FAQ</a></li>
+            <li class="navbar__link"><a href="">Blog</a></li>
+            <li>
+              <button href="" class="navbar__btn" class="active">
+                Contact us
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
     <main>
       <!-- Banner section -->
       <section class="banner">
-        <div class="container flex">
-          <div class="banner__content">
-            <div class="label">About us</div>
-            <h1 class="banner__header">Our designs solve problems</h1>
-            <p class="banner__paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
-            </p>
+        <div class="container">
+          <div class="row">
+            <div class="banner__content">
+              <div class="label">About us</div>
+              <h1 class="banner__header">Our designs solve problems</h1>
+              <p class="banner__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
+            <figure class="banner__image">
+              <img
+                src="./assets/images/group-of-people-sitting-indoors-3184360.png"
+                alt="" />
+            </figure>
           </div>
-          <figure class="banner__image">
-            <img
-              src="./assets/images/group-of-people-sitting-indoors-3184360.png"
-              alt="" />
-          </figure>
         </div>
       </section>
-
+      <!-- Goal Section -->
       <section class="goal">
         <div class="container">
           <div class="goal__contents gery">
             <div class="label">Who we are</div>
-            <div class="goal__divs flex">
-              <div class="goal__content">
-                <h3 class="goal__header">Goal focussed</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-              <div class="goal__content">
-                <h3 class="goal__header">Continuous improvement</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+            <div class="goal__divs">
+              <div class="row">
+                <div class="goal__content">
+                  <h3 class="goal__header">Goal focussed</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+                <div class="goal__content">
+                  <h3 class="goal__header">Continuous improvement</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -90,25 +104,29 @@
           <div class="process__divs flex">
             <div class="process__div">
               <div class="process__image">
-              <img src="./assets/images/Line and Icon.png" alt="" /></div>
+                <img src="./assets/images/Line and Icon.png" alt="" />
+              </div>
               <h6>Planning</h6>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
             </div>
             <div class="process__div">
               <div class="process__image">
-              <img src="./assets/images/Line and Icon.png" alt="" /></div>
+                <img src="./assets/images/Line and Icon.png" alt="" />
+              </div>
               <h6>Conception</h6>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
             </div>
             <div class="process__div">
-               <div class="process__image">
-              <img src="./assets/images/Line and Icon.png" alt="" /></div>
+              <div class="process__image">
+                <img src="./assets/images/Line and Icon.png" alt="" />
+              </div>
               <h6>Design</h6>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
             </div>
             <div class="process__div">
               <div class="process__image">
-              <img src="./assets/images/Line and Icon.png" alt="" /></div>
+                <img src="./assets/images/Line and Icon.png" alt="" />
+              </div>
               <h6>Development</h6>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
             </div>
@@ -121,7 +139,7 @@
         <div class="mession">
           <div class="container flex">
             <div class="mession__content">
-              <div class="label">Our Mission </div>
+              <div class="label">Our Mission</div>
               <h3 class="mession__header">Inspire, Innovate, Share</h3>
               <p class="mession__paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -204,11 +222,21 @@
               <p>Finsweet Users</p>
             </div>
             <ul>
-              <li class="benifits__logo"><img src="./assets/images/logos/Logo 1.png" alt="" /></li>
-              <li class="benifits__logo"><img src="./assets/images/logos/Logo 2.png" alt="" /></li>
-              <li class="benifits__logo"><img src="./assets/images/logos/Logo 3.png" alt="" /></li>
-              <li class="benifits__logo"><img src="./assets/images/logos/Logo 4.png" alt="" /></li>
-              <li class="benifits__logo"><img src="./assets/images/logos/Logo 5.png" alt="" /></li>
+              <li class="benifits__logo">
+                <img src="./assets/images/logos/Logo 1.png" alt="" />
+              </li>
+              <li class="benifits__logo">
+                <img src="./assets/images/logos/Logo 2.png" alt="" />
+              </li>
+              <li class="benifits__logo">
+                <img src="./assets/images/logos/Logo 3.png" alt="" />
+              </li>
+              <li class="benifits__logo">
+                <img src="./assets/images/logos/Logo 4.png" alt="" />
+              </li>
+              <li class="benifits__logo">
+                <img src="./assets/images/logos/Logo 5.png" alt="" />
+              </li>
             </ul>
           </div>
         </div>
@@ -221,8 +249,15 @@
           <div class="team__divs flex">
             <div class="team__div">
               <figure class="team__image">
+                <div class="overlay">
+                  <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
                 <img
-                  src="./assets/images/team Images/Ellipse 228 (1).png"
+                  src="./assets/images/team Images/serious-man-3760373.png"
                   alt="" />
               </figure>
               <div class="team__content">
@@ -232,6 +267,13 @@
             </div>
             <div class="team__div">
               <figure class="team__image">
+                <div class="overlay">
+                  <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
                 <img
                   src="./assets/images/team Images/serious-man-3760373.png"
                   alt="" />
@@ -243,6 +285,13 @@
             </div>
             <div class="team__div">
               <figure class="team__image">
+                <div class="overlay">
+                  <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
                 <img
                   src="./assets/images/team Images/man-in-white-shirt-wearing-blue-bucket-hat-6626874.png"
                   alt="" />
@@ -254,6 +303,13 @@
             </div>
             <div class="team__div">
               <figure class="team__image">
+                <div class="overlay">
+                  <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
                 <img
                   src="./assets/images/team Images/transgender-model-touching-forehead-in-neon-light-7613875.png"
                   alt="" />
@@ -271,7 +327,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__content">
-          <div class="footer__divs ">
+          <div class="footer__divs">
             <div class="footer__div">
               <div class="footer__logo">
                 <img src="./assets/images/Logo.png" alt="" />
@@ -300,15 +356,30 @@
         </div>
         <div class="footer__contacts flex">
           <div class="contacts__mail">
-            <div class="label">Email me at </div>
+            <div class="label">Email me at</div>
             <p>contact@website.com</p>
           </div>
           <div class="contacts__phone">
-            <div class="label"> Call us </div>
+            <div class="label">Call us</div>
             <p>0927 6277 28525</p>
           </div>
         </div>
       </div>
     </footer>
+    <div class="navfooter">
+      <div class="container">
+        <div class="navfooter__wrapper">
+          <p class="navfooter__copy">Copyright 2021, Finsweet.com</p>
+          <ul class="navfooter__links">
+            <li class="navfooter__link"><a href="">Home</a></li>
+            <li class="navfooter__link"><a href="">About us</a></li>
+            <li class="navfooter__link"><a href="">Features</a></li>
+            <li class="navfooter__link"><a href="">Pricing</a></li>
+            <li class="navfooter__link"><a href="">FAQ</a></li>
+            <li class="navfooter__link"><a href="">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
